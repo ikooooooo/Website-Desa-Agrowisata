@@ -1,0 +1,238 @@
+body {
+    background-color: black;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* Styling dasar */
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #007bff; /* Biru */
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Mengatur menu navigasi secara horizontal */
+}
+
+nav li {
+    margin-right: 20px; /* Memberi jarak antar item menu */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Styling dashboard */
+.dashboard {
+    display: flex;
+    flex-wrap: wrap; /* Agar konten bisa pindah baris jika tidak cukup */
+    justify-content: space-around; /* Memberi jarak antar section */
+    padding: 20px;
+}
+
+.welcome, .summary, .actions {
+    background-color: #f8f9fa; /* Abu-abu muda */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex: 1; /* Agar section memiliki lebar yang sama */
+    min-width: 250px; /* Lebar minimum section */
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.card h4 {
+    margin-top: 0;
+}
+
+.actions .card a {
+    display: block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+/* ... (style sebelumnya) ... */
+
+.metode {
+    padding: 20px;
+}
+
+.metode h2 {
+    color: #007bff; /* Biru */
+}
+
+.explanation, .steps {
+    margin-bottom: 20px;
+}
+
+.formula {
+    font-style: italic;
+}
+/* ... (style sebelumnya) ... */
+
+.petunjuk {
+    padding: 20px;
+}
+
+.petunjuk h2 {
+    color: #007bff; /* Biru */
+}
+
+.langkah ol {
+    list-style-type: decimal;
+}
+
+.langkah li {
+    margin-bottom: 15px;
+}
+
+.tips ul {
+    list-style-type: disc;
+}
+/* ... (style sebelumnya) ... */
+
+/* Styling form login */
+main form {
+    width: 300px;
+    margin: 50px auto; /* Pusatkan form secara horizontal */
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff; /* Biru */
+}
+
+main input[type="text"],
+main input[type="password"] {
+    width: calc(100% - 22px); /* Sesuaikan lebar dengan padding dan border */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Agar padding dan border tidak menambah lebar */
+}
+
+main button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+main button[type="submit"]:hover {
+    background-color: #0069d9; /* Biru lebih gelap saat hover */
+}
+/* ... (style sebelumnya) ... */
+
+.perhitungan .form-group {
+    margin-bottom: 15px;
+}
+
+.perhitungan label {
+    display: block;
+    margin-bottom: 5px;
+}
+/* ... (style sebelumnya) ... */
+
+.hasil-perhitungan {
+    padding: 20px;
+}
+
+.hasil-perhitungan h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.hasil-perhitungan table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.hasil-perhitungan th, .hasil-perhitungan td {
+    padding: 10px;
+    text-align: left;
+}
+/* ... (style sebelumnya) ... */
+
+/* Styling untuk halaman about */
+.about {
+    padding: 20px;
+}
+
+.about h2 {
+    color: #007bff; /* Biru */
+    margin-bottom: 20px;
+}
+
+.about h3 {
+    color: #000000; /* Abu-abu gelap */
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.about ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.about p {
+    line-height: 1.6;
+}
+/* CSS untuk Dosen Pengampu */
+.dosen-pengampu {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.dosen-pengampu img {
+    width: 150px; /* Atur ukuran sesuai kebutuhan */
+    height: auto;
+    border-radius: 50%; /* Membuat gambar berbentuk lingkaran */
+    margin-bottom: 10px;
+}
+
+/* CSS untuk Kelompok Tim */
+.kelompok-tim {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.tim-anggota {
+    display: inline-block;
+    margin: 10px;
+}
+
+.tim-anggota img {
+    width: 100px; /* Atur ukuran sesuai kebutuhan */
+    height: auto;
+    border-radius: 50%; /* Membuat gambar berbentuk lingkaran */
+    margin-bottom: 5px;
+}
